@@ -1,0 +1,94 @@
+
+:root {
+  --purple: #512ed7;
+  --lavender: #8377b0;
+  --white: #ffffff;
+  --sage: #77b0a4;
+  --red: #ff7181;
+  --gray: #eeeff4;
+  --lightgray: #f1f2f5;
+}
+
+#root {
+  background-color:var(--white);
+}
+
+.content {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.title {
+  padding: 15px 0;
+}
+
+.create-inv-form {
+  background-color: var(--lightgray);
+  width: 310px;
+  margin: 0 auto;
+  height: 440px;
+  box-shadow: 0 0 2px var(--lavender);
+}
+
+.form-header {
+  padding: 20px 0;
+}
+
+.create-inv-form select {
+  width: 182px;
+  display: list-item;
+  margin: 0 64px 5px;
+  text-align-last:center ;
+
+}
+
+.create-inv-form input {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.submit-btn {
+  cursor: pointer;
+  background-color: var(--purple);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  padding: 6px 17px;
+}
+
+.create-inv-submit {
+  padding: 12px 0 0;
+}
+
+.lists-wrapper {
+  margin: 0 auto;
+  width: 75%;
+  text-align: initial;
+}
+
+.inv-remove {
+  background-color: var(--red);
+  cursor: pointer;
+  color: var(--white);
+  border: 0;
+  border-radius: 3px;
+}
+
+.inv-toggle {
+  background-color:var(--sage);
+  color: var(--white);
+  border: 0;
+  border-radius: 3px;
+}
+
+.invList {
+  text-align: center;
+}
+
+.inv-list-Sold table tbody tr td .inv-toggle {
+  background-color: #ee7785;
+}
